@@ -9,10 +9,17 @@ The technologies we use are:
 - ActiveMq classic
 - MassTransit (@phatboyg)
 
-Our usage of ActiveMq was my drive to implement an ActiMq Classic host component for the Aspire CommunityToolkit that could be used by ActiveMq.
-I did this because MassTransit expects a scheme "activemq" in the connectionstring.
+## Aspire CommunityToolkit
 
-Support for ActiveMq Artemis will be available soon.
+### ActiveMQ
+
+Our usage of ActiveMq was my drive to implement an [ActiMq Classic](https://activemq.apache.org/components/classic/) host component for the Aspire CommunityToolkit that could be used by ActiveMq.
+I did this because MassTransit expects a scheme "activemq" in the connectionstring.
+[ActiveMq Artemis](https://activemq.apache.org/components/artemis/) is now also available.
+
+### Papercut SMTP
+
+I also implemented a hosting component for testing integrations with SMTP using [Papercut SMTP](https://github.com/ChangemakerStudios/Papercut-SMTP).
 
 <!--
 **anoordover/anoordover** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
